@@ -14,16 +14,19 @@ a:hover{
     color:rgb(227, 24, 24);
 }
 table {
-   
+
     border-collapse: collapse;
 }
 main {
     width:1000px;
 }
+
 /*header{
     width:1000px;
     height: 400px;
 }*/
+
+/* notice_board.html*/
 .main { 
     margin: auto;
     text-align: center;
@@ -91,4 +94,63 @@ main {
 .page_number > .number >li {
     margin:10px;
     display: inline-block;
+}
+/*write_board.html*/
+.write_main {
+    margin: auto;
+}
+
+.write_main > .write_part > h2{
+    text-align: center;
+    margin: 8px;
+}
+
+.text_title {
+    position: relative;
+    height: 40px;
+    padding-left:5px;
+    padding-top:10px;
+}
+.text_title > input{
+    height:30px;
+    width: 920px;
+    padding-left: 10px;   
+    border: none;
+
+}
+hr {
+    margin: 10px;
+
+}
+fieldset {
+    border:none;
+     background-color: #ded4d4ae;
+}
+.main_text {
+    position: relative;
+    padding-left:5px;
+    padding-top:5px;
+}
+.main_text > textarea {
+    width: 955px;
+    height: 200px;
+    border: none;
+}
+.main_text > label {
+    font-size: 13px;
+    margin-top: 5px;
+    display: inline-block;
+    padding: .5em .75em;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    width: 70px;
+    height: 30px; 
+}
+.main_text > input{
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
 }
