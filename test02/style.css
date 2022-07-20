@@ -21,10 +21,10 @@ main {
     width:1000px;
 }
 
-/*header{
+header{
     width:1000px;
     height: 400px;
-}*/
+}
 
 /* notice_board.html*/
 .main { 
@@ -71,8 +71,7 @@ main {
     border-top: 3px solid #acacb37e;
 
 }
-.list thead th {
-    border-bottom: 2px solid #b9b7b78f;
+.list thead th { 
     padding: 10px;
 }
 .list > th,td{
@@ -132,8 +131,9 @@ fieldset {
     padding-top:5px;
 }
 .main_text > textarea {
+    margin-top:10px;
     width: 955px;
-    height: 200px;
+    height: 400px;
     border: none;
 }
 .main_text > label {
@@ -153,4 +153,22 @@ fieldset {
     padding: 0;
     overflow: hidden;
     border: 0;
+}
+.button_save {
+    margin-top:10px;
+    float: right;
+}
+.button_save > button{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #6ca2f8;
+    
+}
+.text_list {
+    text-align: center;
+    margin-top: 50px;
+}
+.text_list > a {
+    font-size: 15px;
 }
