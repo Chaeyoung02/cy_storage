@@ -72,4 +72,17 @@ a {
     font-size: 15px;
 }
 
+.found_main {
+    text-align: left;
+    padding: 10px;
+    position: relative;
+    font-size: 15px;
+}
 
+.found_input > input{
+    margin-top: 5px;
+    
+}
+.found_input > p {
+    margin-top: 5px;;
+}
