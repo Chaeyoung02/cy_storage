@@ -7,36 +7,42 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&amp;display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <script src="local.js"></script>
     </head>
 
     <body>
         <header></header>
 
         <main>
-            <form>
+            <div class="found_logo">
+                <i class="fa-solid fa-user"></i>
+                <span>아이디 찾기</span>
+            </div>
+            
+            <form name="form" action="post" >
                 <div class="found_main">
                     <div class="found_input">
                         <p>이름</p>
-                        <input type="text" name="이름" placeholder="성명">
+                        <input type="text"  name="name" value="" placeholder="성명">
                         <p>주민등록번호</p>
-                        <input type="text" name="주민번호 앞자리" maxlength="6" placeholder="주민번호 앞자리">
+                        <input type="text" name="birthnum" onKeydown="this.value=this.value.replace(/[^0-9]/gi,'');" onkeypress="numberInput()"   maxlength="6" placeholder="주민번호 앞자리">
                         <span>-</span>
-                        <input type="password" name="주민번호 뒷자리" maxlength="7" placeholder="주민번호 뒷자리">
+                        <input type="password"  name="birthnum2" onkeypress="numberInput()"  maxlength="7" placeholder="주민번호 뒷자리">
                         <p>휴대폰번호</p>
                         <select name="local_num">
                             <option value="phone_num">대한민국 +82</option>
                         </select>
-                        <input type="text" name="휴대전화번호" maxlength="12" placeholder="휴대전화번호">
+                        <input type="text"  name="phone_num" maxlength="11" onKeyup="this.value=this.value.replace(/[^0-9]/g,'');" placeholder="휴대전화번호">
                         <button type="submit" value="인증확인">인증번호 받기</button>
                         <p>인증번호</p>
-                        <input type="text" name="인증번호" maxlength="4" placeholder="인증번호 입력">
-                        <p>
-                        <input type="button" value="확인">
+                        <input type="text" class="check" name="인증번호" onKeyup="this.value=this.value.replace(/[^0-9]/gi,'');" maxlength="4" placeholder="인증번호 입력">
+                        <input type="button" onclick="check()" value="확인">
 
                     </div>
                     <div class="found_under">
-                        <a href="#">비밀번호를 찾으시겠습니까?</a>
-                        <a href="#">회원가입</a>
+                        <a href="#" onclick="foundpassPage()">비밀번호를 찾으시겠습니까?</a>
+                        <span> | </span>
+                        <a href="#" onclick="signPage()">회원가입</a>
                     </div>
                   
                 </div>

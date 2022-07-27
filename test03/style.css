@@ -74,15 +74,36 @@ a {
 
 .found_main {
     text-align: left;
-    padding: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
     position: relative;
     font-size: 15px;
+    border: 2px solid gray;
+    border-radius: 5px;
 }
 
 .found_input > input{
     margin-top: 5px;
     
+    
 }
 .found_input > p {
     margin-top: 5px;;
+}
+.found_logo {
+    margin: 5px;
+    font-size: 20px;
+}
+.found_under {
+    margin: 5px;
+    font-size: 13px;
+    color:#7d7d7d;
+    text-align: right;
+    padding-right: 5px;
+}
+.found_under > span {
+    padding-left: 5px;
+    padding-right: 5px;
 }
