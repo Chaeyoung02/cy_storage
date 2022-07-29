@@ -90,7 +90,7 @@ a {
     
 }
 .found_input > p {
-    margin-top: 5px;;
+    margin-top: 5px;
 }
 .found_logo {
     margin: 5px;
@@ -106,4 +106,47 @@ a {
 .found_under > span {
     padding-left: 5px;
     padding-right: 5px;
+}
+.sign_input {
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    position: relative;
+    font-size: 15px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.sign_input > p {
+    margin-top:5px;
+}
+.sign_input > input{
+    margin-top:5px;
+}
+.sign_logo{
+    margin: 5px;
+    font-size: 20px;
+}
+.back_button > button {
+    margin-top: 5px;
+    background-color: #146ebe;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    color: white;
+   display: inline-block;
+
+}
+.next_button > button {
+    margin-top: 5px;
+    background-color: #146ebe;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    color: white;
+
+
 }
