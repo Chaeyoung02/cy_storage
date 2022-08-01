@@ -128,25 +128,54 @@ a {
     margin: 5px;
     font-size: 20px;
 }
-.back_button > button {
-    margin-top: 5px;
-    background-color: #146ebe;
-    border: 1px solid gray;
-    border-radius: 5px;
-    width: 70px;
-    height: 30px;
-    color: white;
-   display: inline-block;
 
+.sign_button {
+    text-align: center;
 }
-.next_button > button {
-    margin-top: 5px;
+.sign_button > button {
+    margin-top: 15px;
     background-color: #146ebe;
     border: 1px solid gray;
     border-radius: 5px;
     width: 70px;
     height: 30px;
     color: white;
-
-
+    margin-right: 5px;
+    cursor: pointer;
+}
+/*found_pwd.html*/
+.found_pwd_logo {
+    margin: 5px;
+    font-size: 20px;
+}
+.found_pwd_input {
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    position: relative;
+    font-size: 15px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.found_pwd_button {
+    text-align: center;
+}
+.found_pwd_button > input{
+   
+    margin-top: 10px;
+    background-color: #146ebe;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}
+.found_pwd_click {
+    text-align: center;
+    color:#909090;
+    font-size: 15px;
+    margin-top: 10px;
 }

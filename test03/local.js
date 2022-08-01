@@ -28,3 +28,9 @@ function foundpassPage() {
 function signPage() {
     window.location.href="sign_page.html"
 }
+function foundidPage() {
+    window.location.href="found_id.html"
+}
+function loginPage() {
+    window.location.href="login.html"
+}

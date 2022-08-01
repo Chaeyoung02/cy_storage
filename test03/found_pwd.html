@@ -15,6 +15,7 @@
         </header>
         <main>
             <div class="found_pwd_logo">
+                <i class="fa-solid fa-lock"></i>
                 비밀번호 찾기
             </div>
             <form>
@@ -26,9 +27,15 @@
                         <input type="text" name="name" placeholder="이름">
                     </div>
                 </div>
-                <input type="button" name="next" value="다음">
+                <div class="found_pwd_button">
+                    <input type="button" name="next" value="다음">
+                </div>
+                
             </form>
-            <a href="#">아이디 찾기</a>
+            <div class="found_pwd_click">
+                <a href="#" onclick = "foundidPage()">아이디 찾기</a>
+            </div>
+            
             
         </main>
     </body>
